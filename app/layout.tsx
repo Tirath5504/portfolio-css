@@ -7,8 +7,7 @@ import "../public/assets/css/main.css"; // Ensure CSS matches 100%
 
 export const metadata: Metadata = {
   title: "Tirath Bhathawala | AI Researcher & Developer",
-  description:
-    "AI/MLE Intern Candidate, Incoming NYU MSCS, Agentic AI Developer",
+  description: "AI/MLE Intern Candidate, Agentic AI Developer",
 };
 
 export default function RootLayout({

@@ -6,7 +6,6 @@ export default function TypewriterEffect() {
   const [text, setText] = useState("");
   const typingPhrases = [
     "an AI/MLE Intern Candidate",
-    "an Incoming NYU MSCS Student",
     "an Agentic AI Developer",
     "a Barcelona Fan",
   ];

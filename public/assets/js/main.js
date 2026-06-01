@@ -2,7 +2,6 @@
   const typedTextElement = document.getElementById("typed-text");
   const typingPhrases = [
     "AI/MLE Intern Candidate",
-    "Incoming NYU MSCS",
     "Agentic AI Developer",
     "Barcelona Fan",
   ];

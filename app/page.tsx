@@ -13,8 +13,7 @@ export default function Home() {
               I&apos;m <TypewriterEffect />
             </p>
             <p className="hero-description">
-              Incoming MSCS at NYU Courant | Specializing in Multimodal AI &
-              Agentic Systems.
+              Specializing in Multimodal AI & Agentic Systems.
               <br />
               <span
                 style={{
