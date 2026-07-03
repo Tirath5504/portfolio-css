@@ -106,7 +106,7 @@ export default function Home() {
             <div className="stat-item">
               <CountUp
                 from={0}
-                to={9.29}
+                to={9.32}
                 className="stat-number"
                 duration={2}
               />
