@@ -9,7 +9,6 @@ const techStackLogos = [
   { node: <span style={{ padding: "0.5rem 1rem", fontSize: "1.5rem", fontWeight: 600, color: "var(--highlight)", background: "var(--glass-bg)", borderRadius: "12px", border: "1px solid var(--highlight)" }}>OpenCV</span> },
   { node: <span style={{ padding: "0.5rem 1rem", fontSize: "1.5rem", fontWeight: 600, color: "var(--highlight)", background: "var(--glass-bg)", borderRadius: "12px", border: "1px solid var(--highlight)" }}>FastAPI</span> },
   { node: <span style={{ padding: "0.5rem 1rem", fontSize: "1.5rem", fontWeight: 600, color: "var(--highlight)", background: "var(--glass-bg)", borderRadius: "12px", border: "1px solid var(--highlight)" }}>Docker</span> },
-  { node: <span style={{ padding: "0.5rem 1rem", fontSize: "1.5rem", fontWeight: 600, color: "var(--highlight)", background: "var(--glass-bg)", borderRadius: "12px", border: "1px solid var(--highlight)" }}>Firebase</span> },
   { node: <span style={{ padding: "0.5rem 1rem", fontSize: "1.5rem", fontWeight: 600, color: "var(--highlight)", background: "var(--glass-bg)", borderRadius: "12px", border: "1px solid var(--highlight)" }}>Weights & Biases</span> },
   { node: <span style={{ padding: "0.5rem 1rem", fontSize: "1.5rem", fontWeight: 600, color: "var(--highlight)", background: "var(--glass-bg)", borderRadius: "12px", border: "1px solid var(--highlight)" }}>Git/GitHub</span> }
 ];
@@ -56,12 +55,13 @@ export default function About() {
                 <i className="uil uil-clock"></i> Right Now
               </h2>
               <ul style={{ listStyleType: "none", padding: 0, margin: 0 }}>
-                {["Finishing my B.Tech in Computer Engineering", "Preparing to begin an MSCS journey in the US", "Working on research around AI-assisted peer review and multimodal systems", "Experimenting with SLM finetuning and agentic workflows"].map((item, i) => (
+                {["Finishing my B.Tech in Computer Engineering", "Working on research around AI-assisted peer review and multimodal systems", "Experimenting with SLM finetuning and agentic workflows"].map((item, i) => (
                   <li key={i} style={{ padding: "1rem 1.5rem", background: "var(--secondary-bg)", borderRadius: "15px", marginBottom: "1rem", color: "var(--secondary-text)", borderLeft: "4px solid var(--highlight)" }}>
                     {item}
                   </li>
                 ))}
               </ul>
+              {/* "Preparing to begin an MSCS journey in the US" */}
             </div>
           </div>
 
