@@ -25,6 +25,19 @@
       "featured": true,
       "thumbnail": "img/blogs/gre/thumbnail.png",
       "file": "blogs/my-gre-experience.md"
+    },
+    {
+      "id": "falsifying-adamem",
+      "title": "Falsifying AdaMEM: Why Agent Strategy Synthesis is Brittle",
+      "date": "2026-07-28",
+      "category": "technical",
+      "excerpt": "A deep dive into the reproducibility of AdaMEM for the ICML 2026 Agent Repro Challenge, exposing the brittleness of strategy synthesis under adversarial conditions.",
+      "author": "Tirath Bhathawala",
+      "readTime": "4 min read",
+      "tags": ["Machine Learning", "AI Agents", "Reproducibility", "ICML 2026"],
+      "featured": true,
+      "thumbnail": "img/blogs/adamem/thumbnail.png",
+      "file": "blogs/falsifying-adamem.md"
     }
   ]
 }
