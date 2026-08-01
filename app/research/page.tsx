@@ -1,5 +1,5 @@
 import SpotlightCard from '@/components/SpotlightCard';
-
+import Magnet from '@/components/Magnet';
 export default function Research() {
   return (
     <main>
@@ -18,12 +18,23 @@ export default function Research() {
                 Dynamic Optimization of Peer Review Length Using Information
                 Density Analysis
               </h2>
-              <div className="paper-venue">Scientometrics (Springer)</div>
+              <div className="paper-venue">Scientometrics (Springer) • September 2025</div>
               <p className="paper-description">
                 Introduces an information-density framework that balances
                 relevance, argumentative strength, and cognitive load to
                 optimise peer-review length.
               </p>
+              <div className="project-links" style={{ marginTop: '1rem' }}>
+                <Magnet padding={50} magnetStrength={3}>
+                  <a href="https://doi.org/10.1007/s11192-025-05416-w" target="_blank" rel="noopener noreferrer" className="project-link">Paper</a>
+                </Magnet>
+                <Magnet padding={50} magnetStrength={3}>
+                  <a href="https://github.com/Tirath5504/OptiReview" target="_blank" rel="noopener noreferrer" className="project-link">Code</a>
+                </Magnet>
+                <Magnet padding={50} magnetStrength={3}>
+                  <a href="https://huggingface.co/spaces/Tirath5504/Length_Optimization_Peer_Review" target="_blank" rel="noopener noreferrer" className="project-link">Demo</a>
+                </Magnet>
+              </div>
             </SpotlightCard>
 
             <SpotlightCard className="research-paper fade-in">
@@ -33,13 +44,21 @@ export default function Research() {
                 Production Applications
               </h2>
               <div className="paper-venue">
-                Automated Software Engineering (Special Issue)
+                Automated Software Engineering (Special Issue) • April 2026
               </div>
               <p className="paper-description">
                 Proposes a novel automated software patching framework using
                 multimodal runtime telemetry (stack traces, screenshots) and
                 specialized agent orchestration for hypothesis-driven repair.
               </p>
+              <div className="project-links" style={{ marginTop: '1rem' }}>
+                <Magnet padding={50} magnetStrength={3}>
+                  <a href="https://antibug-survey.vercel.app/benchmark" target="_blank" rel="noopener noreferrer" className="project-link">Website</a>
+                </Magnet>
+                <Magnet padding={50} magnetStrength={3}>
+                  <a href="https://github.com/anon-research-submission/AntiBug" target="_blank" rel="noopener noreferrer" className="project-link">Code</a>
+                </Magnet>
+              </div>
             </SpotlightCard>
 
             <SpotlightCard className="research-paper fade-in">
@@ -49,7 +68,7 @@ export default function Research() {
                 Multi-Agent System
               </h2>
               <div className="paper-venue">
-                Biomedical Signal Processing and Control (Special Issue)
+                The 2nd Agentic AI for Medicine Workshop at MICCAI 2026 • March 2026
               </div>
               <p className="paper-description">
                 Introduces a conformal multi-agent fracture radiograph pipeline
@@ -57,35 +76,40 @@ export default function Research() {
                 statistically grounded diagnoses for clinical workflow
                 integration.
               </p>
-            </SpotlightCard>
-
-            <SpotlightCard className="research-paper fade-in">
-              <div className="paper-status">Under Review</div>
-              <h2 className="paper-title">
-                BiasChain: A Multi-Agent LLM Framework for Justified Peer Review
-                Bias Detection
-              </h2>
-              <div className="paper-venue">
-                Journal of Information Science (Sage Publications)
+              <div className="project-links" style={{ marginTop: '1rem' }}>
+                <Magnet padding={50} magnetStrength={3}>
+                  <a href="https://frac-mas.vercel.app" target="_blank" rel="noopener noreferrer" className="project-link">Website</a>
+                </Magnet>
+                <Magnet padding={50} magnetStrength={3}>
+                  <a href="https://github.com/anonymous-submission-research/FRAC-MAS" target="_blank" rel="noopener noreferrer" className="project-link">Code</a>
+                </Magnet>
+                <Magnet padding={50} magnetStrength={3}>
+                  <a href="https://frac-mas.vercel.app/diagnose" target="_blank" rel="noopener noreferrer" className="project-link">Demo</a>
+                </Magnet>
               </div>
-              <p className="paper-description">
-                Automates bias detection in peer reviews by orchestrating
-                specialized agents for sentiment coherence, internal
-                consistency, and inter-review alignment.
-              </p>
             </SpotlightCard>
 
+
+
             <SpotlightCard className="research-paper fade-in">
-              <div className="paper-status">Under Review</div>
+              <div className="paper-accepted">Accepted</div>
               <h2 className="paper-title">
                 DigniFy: Multi-Modal Multilingual Online Hate Speech Detection
               </h2>
-              <div className="paper-venue">IEEE CONECCT</div>
+              <div className="paper-venue">IEEE CONECCT 2026</div>
               <p className="paper-description">
                 Presents a theoretical framework and pipeline for multilingual,
                 multimodal safety systems with interactive LLM orchestration to
                 detect online hate speech.
               </p>
+              <div className="project-links" style={{ marginTop: '1rem' }}>
+                <Magnet padding={50} magnetStrength={3}>
+                  <a href="https://github.com/IPD-Hate-Speech-Detection/IPD-Hate-Speech-Detection" target="_blank" rel="noopener noreferrer" className="project-link">Code</a>
+                </Magnet>
+                <Magnet padding={50} magnetStrength={3}>
+                  <a href="https://huggingface.co/spaces/dj-dawgs-ipd/IPD-Video-Pipeline" target="_blank" rel="noopener noreferrer" className="project-link">Demo</a>
+                </Magnet>
+              </div>
             </SpotlightCard>
 
             <SpotlightCard className="research-paper fade-in">
@@ -102,6 +126,11 @@ export default function Research() {
                 2.0, and LLaMA 3.2 on BLEU, Levenshtein, and Jaccard metrics for
                 requirement engineering.
               </p>
+              <div className="project-links" style={{ marginTop: '1rem' }}>
+                <Magnet padding={50} magnetStrength={3}>
+                  <a href="https://www.linkedin.com/posts/nvelop-it-whitepaper-on-requirements-generation-ugcPost-7310254420926099456-WwYT" target="_blank" rel="noopener noreferrer" className="project-link">Post</a>
+                </Magnet>
+              </div>
             </SpotlightCard>
           </div>
         </div>

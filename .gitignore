@@ -26,4 +26,4 @@ yarn-error.log*
 blog-guide/
 img/projects/
 blogs/old-gre-experience.md
-docs/*.txt
+public/docs

@@ -22,6 +22,11 @@ export default function Experience() {
                     BrandContext.ai • Hybrid, Mumbai, India
                   </div>
                   <p className="timeline-description">
+                    • Finetuning an LLM-driven automation framework (browser-use)
+                    that independently performs user-specified queries on websites
+                    (Looker Studio, Hootsuite, etc) or Google Sheets by generating
+                    and executing custom Playwright-based actions.
+                    <br />
                     • Developed an AI-agentic system powered by dynamic graphs and
                     real-time factory operation databases to support supervisor
                     workflows, detect anomalies, and dynamically incorporate
@@ -46,14 +51,15 @@ export default function Experience() {
                     Indian Institute of Technology, Patna • Remote
                   </div>
                   <p className="timeline-description">
+                    • Composed a heuristic framework, based on Cognitive Load and
+                    Discourse Analysis theories, for optimizing peer review lengths
+                    through information density analysis, integrating metrics for
+                    content relevance and argument strength (published).
+                    <br />
                     • Designed MetaSearch, a search-augmented, reasoning-based AI
                     Agent for consensus resolution in peer review, combining
                     disagreement detection and fact-grounded synthesis to automate
                     meta-review decision-making.
-                    <br />• Developed a novel LLM-argumentation system for peer
-                    review, evaluating 900+ ICLR reviews using leading LLMs (Llama
-                    3.1, Mixtral, Gemini 2.0, GPT-4o), achieving high
-                    inter-annotator agreement (Cohen&apos;s Kappa = 0.834).
                   </p>
                 </SpotlightCard>
               </div>
@@ -66,10 +72,19 @@ export default function Experience() {
                     Nvelop Technologies Oy • Remote, Helsinki, Finland
                   </div>
                   <p className="timeline-description">
+                    • Authored a whitepaper implementing an evaluation pipeline for
+                    LLM-based requirement generation, benchmarking DeepSeek R1, GPT-4o,
+                    Gemini 2.0, LLaMA 3.2 across diverse NLP metrics including BLEU,
+                    Levenshtein and Jaccard Similarity.
+                    <br />
                     • Devised Retrieval-Augmented Generation (RAG) workflows in
                     Azure AI PromptFlow across 50+ RFPs.
-                    <br />• Optimized chunking strategies and top-p sampling
+                    <br />
+                    • Optimized chunking strategies and top-p sampling
                     parameters, reducing document retrieval perplexity by 15%.
+                    <br />
+                    • Authored a comprehensive 70-page documentation detailing
+                    the mapping of AI APIs (Insomnia) to the frontend (NextJS).
                   </p>
                 </SpotlightCard>
               </div>

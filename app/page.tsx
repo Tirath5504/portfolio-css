@@ -13,7 +13,7 @@ export default function Home() {
               I&apos;m <TypewriterEffect />
             </p>
             <p className="hero-description">
-              Specializing in Multimodal AI & Agentic Systems.
+              Incoming MS in AI at UvA, specializing in Agentic Systems.
               <br />
               <span
                 style={{

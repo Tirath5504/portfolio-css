@@ -26,7 +26,7 @@ export default function Projects() {
                 Automates root-cause diagnosis, hypothesis validation, and
                 SDK-integrated patch synthesis. Evaluated on real-world
                 production bugs, fixing 46.38% of issues (3.5x better than
-                GPT-4o base).
+                GPT-4o base) and achieved a 72.50% human preference rate.
               </p>
               <div className="project-tech">
                 <span className="tech-tag">LangGraph</span>
@@ -80,22 +80,32 @@ export default function Projects() {
               <div className="project-links">
                 <Magnet padding={50} magnetStrength={3}>
                   <a
-                    href="https://cvpr-submission-frac-mas.vercel.app"
+                    href="https://frac-mas.vercel.app"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="project-link"
                   >
-                    Live Demo
+                    Website
                   </a>
                 </Magnet>
                 <Magnet padding={50} magnetStrength={3}>
                   <a
-                    href="https://github.com/anonymous-submission-research/CVPR-Submission-2026-FRAC-MAS"
+                    href="https://github.com/anonymous-submission-research/FRAC-MAS"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="project-link"
                   >
                     GitHub
+                  </a>
+                </Magnet>
+                <Magnet padding={50} magnetStrength={3}>
+                  <a
+                    href="https://frac-mas.vercel.app/diagnose"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
+                    Live Demo
                   </a>
                 </Magnet>
               </div>
@@ -113,6 +123,7 @@ export default function Projects() {
                 for audio. Features an AI Agent integrating all
                 modality-specific models as tools, orchestrating interaction
                 across four LLMs (DeepSeek R1, GPT-4o, Gemini 2.0, LLaMA 4.0).
+                Research paper accepted to IEEE CONECCT 2026.
               </p>
               <div className="project-tech">
                 <span className="tech-tag">HuggingFace</span>
@@ -129,6 +140,16 @@ export default function Projects() {
                     className="project-link"
                   >
                     GitHub
+                  </a>
+                </Magnet>
+                <Magnet padding={50} magnetStrength={3}>
+                  <a
+                    href="https://huggingface.co/spaces/dj-dawgs-ipd/IPD-Video-Pipeline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
+                    Live Demo
                   </a>
                 </Magnet>
               </div>
@@ -176,37 +197,7 @@ export default function Projects() {
               </div>
             </SpotlightCard>
 
-            <SpotlightCard className="project-card fade-in">
-              <div className="project-icon">
-                <i className="uil uil-balance-scale"></i>
-              </div>
-              <h2 className="project-title">Glass House Argumentation</h2>
-              <p className="project-description">
-                <strong>LLM-Argumentation System for Peer Review</strong>
-                <br /> Developed a novel LLM-based argumentation system
-                evaluating 900+ ICLR reviews using leading LLMs (Llama 3.1,
-                Mixtral, Gemini 2.0, GPT-4o) to enhance interpretability of peer
-                reviews, achieving high inter-annotator agreement (Cohen&apos;s
-                Kappa = 0.834).
-              </p>
-              <div className="project-tech">
-                <span className="tech-tag">LLMs</span>
-                <span className="tech-tag">Prompt Engineering</span>
-                <span className="tech-tag">Argumentation Theory</span>
-              </div>
-              <div className="project-links">
-                <Magnet padding={50} magnetStrength={3}>
-                  <a
-                    href="https://github.com/Tirath5504/IIT_Patna_ScorePR"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="project-link"
-                  >
-                    GitHub
-                  </a>
-                </Magnet>
-              </div>
-            </SpotlightCard>
+
 
             <SpotlightCard className="project-card fade-in">
               <div className="project-icon">
