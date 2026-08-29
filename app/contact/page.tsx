@@ -57,7 +57,7 @@ export default function Contact() {
                     <strong>Phone</strong>
                     <br />
                     <span style={{ color: "var(--secondary-text)" }}>
-                      +91 9137583387
+                      (+31) 6 15722585
                     </span>
                   </div>
                 </div>
