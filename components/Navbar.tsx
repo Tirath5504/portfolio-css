@@ -54,15 +54,7 @@ export default function Navbar() {
               Home
             </Link>
           </li>
-          <li>
-            <Link
-              href="/about"
-              className={`nav-link ${isActive("/about") ? "active" : ""}`}
-              onClick={closeMobileMenu}
-            >
-              About
-            </Link>
-          </li>
+
           <li>
             <Link
               href="/experience"

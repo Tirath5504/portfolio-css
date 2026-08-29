@@ -51,15 +51,13 @@ export default function Experience() {
                     Indian Institute of Technology, Patna • Remote
                   </div>
                   <p className="timeline-description">
-                    • Composed a heuristic framework, based on Cognitive Load and
-                    Discourse Analysis theories, for optimizing peer review lengths
-                    through information density analysis, integrating metrics for
-                    content relevance and argument strength (published).
+                    • Developed a heuristic framework based on Cognitive Load and Discourse Analysis to optimize peer review lengths using information density, content relevance, argument strength, and readability metrics. (Published in Scientometrics)
                     <br />
-                    • Designed MetaSearch, a search-augmented, reasoning-based AI
-                    Agent for consensus resolution in peer review, combining
-                    disagreement detection and fact-grounded synthesis to automate
-                    meta-review decision-making.
+                    • Designed MetaSearch, a search-augmented, reasoning-based AI Agent for consensus resolution in peer review, combining disagreement detection and fact-grounded synthesis to automate meta-review decision-making.
+                    <br />
+                    • Developed a novel LLM-argumentation system for peer review, evaluating 900+ ICLR reviews (PeerRead Dataset) using leading LLMs (Llama 3.1, Mixtral, Gemini2, GPT-4o), achieving high inter-annotator agreement (Cohen's Kappa = 0.834).
+                    <br />
+                    • Engineered BiasChain, a modular multi-agent LLM framework for justified peer review bias detection, by orchestrating specialized agents for sentiment coherence, internal consistency, and inter-review alignment.
                   </p>
                 </SpotlightCard>
               </div>

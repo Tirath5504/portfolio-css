@@ -1,5 +1,4 @@
 import SpotlightCard from '@/components/SpotlightCard';
-import Magnet from '@/components/Magnet';
 
 export default function Projects() {
   return (
@@ -22,11 +21,11 @@ export default function Projects() {
               <p className="project-description">
                 <strong>Runtime-Aware Multimodal Agentic Program Repair</strong>
                 <br /> Architected a 12-agent LangGraph pipeline that ingests
-                source-map-resolved stack traces and automatic DOM screenshots.
+                source-map-resolved stack traces, user-event context, and automatic DOM screenshots.
                 Automates root-cause diagnosis, hypothesis validation, and
-                SDK-integrated patch synthesis. Evaluated on real-world
-                production bugs, fixing 46.38% of issues (3.5x better than
-                GPT-4o base) and achieved a 72.50% human preference rate.
+                SDK-integrated patch synthesis. Evaluated on 69 real-world
+                production bugs from Cal.com and Appsmith, fixing 32/69 issues (vs 9/69 for
+                GPT-4o) and achieved a 72.50% human preference rate across 549 blind A/B evaluations.
               </p>
               <div className="project-tech">
                 <span className="tech-tag">LangGraph</span>
@@ -35,7 +34,6 @@ export default function Projects() {
                 <span className="tech-tag">TypeScript</span>
               </div>
               <div className="project-links">
-                <Magnet padding={50} magnetStrength={3}>
                   <a
                     href="https://antibug-survey.vercel.app/benchmark"
                     target="_blank"
@@ -44,8 +42,6 @@ export default function Projects() {
                   >
                     Benchmark Results Website
                   </a>
-                </Magnet>
-                <Magnet padding={50} magnetStrength={3}>
                   <a
                     href="https://github.com/anon-research-submission/AntiBug"
                     target="_blank"
@@ -54,7 +50,14 @@ export default function Projects() {
                   >
                     GitHub
                   </a>
-                </Magnet>
+                  <a
+                    href="https://shorturl.at/kX1oy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
+                    Paper
+                  </a>
               </div>
             </SpotlightCard>
 
@@ -64,12 +67,12 @@ export default function Projects() {
               </div>
               <h2 className="project-title">FRAC-MAS</h2>
               <p className="project-description">
-                <strong>Multi-Agent Fracture Radiograph Pipeline</strong>
+                <strong>A Safe and Explainable Multi-Agent System for Fracture Diagnosis</strong>
                 <br /> Engineered a clinical decision support system integrating
                 a 4-model vision ensemble (MaxViT, RAD-DINO, YOLO, DenseNet)
                 with specialized LLM agents. Implemented conformal prediction to
                 generate statistically grounded differential diagnoses for
-                X-rays (92.0% empirical coverage, 96.4% detection rate).
+                X-rays (92.0% empirical coverage). Stacking achieved a 96.4% detection rate on an external dataset.
               </p>
               <div className="project-tech">
                 <span className="tech-tag">Grad-CAM</span>
@@ -78,7 +81,6 @@ export default function Projects() {
                 <span className="tech-tag">Computer Vision</span>
               </div>
               <div className="project-links">
-                <Magnet padding={50} magnetStrength={3}>
                   <a
                     href="https://frac-mas.vercel.app"
                     target="_blank"
@@ -87,8 +89,6 @@ export default function Projects() {
                   >
                     Website
                   </a>
-                </Magnet>
-                <Magnet padding={50} magnetStrength={3}>
                   <a
                     href="https://github.com/anonymous-submission-research/FRAC-MAS"
                     target="_blank"
@@ -97,8 +97,6 @@ export default function Projects() {
                   >
                     GitHub
                   </a>
-                </Magnet>
-                <Magnet padding={50} magnetStrength={3}>
                   <a
                     href="https://frac-mas.vercel.app/diagnose"
                     target="_blank"
@@ -107,7 +105,14 @@ export default function Projects() {
                   >
                     Live Demo
                   </a>
-                </Magnet>
+                  <a
+                    href="https://shorturl.at/PwEVA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
+                    Paper
+                  </a>
               </div>
             </SpotlightCard>
 
@@ -132,7 +137,6 @@ export default function Projects() {
                 <span className="tech-tag">Render</span>
               </div>
               <div className="project-links">
-                <Magnet padding={50} magnetStrength={3}>
                   <a
                     href="https://github.com/IPD-Hate-Speech-Detection/IPD-Hate-Speech-Detection"
                     target="_blank"
@@ -141,8 +145,6 @@ export default function Projects() {
                   >
                     GitHub
                   </a>
-                </Magnet>
-                <Magnet padding={50} magnetStrength={3}>
                   <a
                     href="https://huggingface.co/spaces/dj-dawgs-ipd/IPD-Video-Pipeline"
                     target="_blank"
@@ -151,7 +153,14 @@ export default function Projects() {
                   >
                     Live Demo
                   </a>
-                </Magnet>
+                  <a
+                    href="https://shorturl.at/7sDSS"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
+                    Paper
+                  </a>
               </div>
             </SpotlightCard>
 
@@ -174,7 +183,6 @@ export default function Projects() {
                 <span className="tech-tag">RAG</span>
               </div>
               <div className="project-links">
-                <Magnet padding={50} magnetStrength={3}>
                   <a
                     href="https://meta-search-demo.vercel.app"
                     target="_blank"
@@ -183,8 +191,6 @@ export default function Projects() {
                   >
                     Live Demo
                   </a>
-                </Magnet>
-                <Magnet padding={50} magnetStrength={3}>
                   <a
                     href="https://github.com/Tirath5504/IITP_SRDA"
                     target="_blank"
@@ -193,7 +199,6 @@ export default function Projects() {
                   >
                     GitHub
                   </a>
-                </Magnet>
               </div>
             </SpotlightCard>
 
@@ -218,7 +223,6 @@ export default function Projects() {
                 <span className="tech-tag">GeoSpatial</span>
               </div>
               <div className="project-links">
-                <Magnet padding={50} magnetStrength={3}>
                   <a
                     href="https://rakshakrita0.vercel.app/"
                     target="_blank"
@@ -227,8 +231,6 @@ export default function Projects() {
                   >
                     Live Demo
                   </a>
-                </Magnet>
-                <Magnet padding={50} magnetStrength={3}>
                   <a
                     href="https://github.com/Tirath5504/RJPOLICE_HACK_177_DjDawgs_1/"
                     target="_blank"
@@ -237,7 +239,6 @@ export default function Projects() {
                   >
                     GitHub
                   </a>
-                </Magnet>
               </div>
             </SpotlightCard>
           </div>

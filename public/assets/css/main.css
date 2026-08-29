@@ -137,7 +137,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 2rem;
+  padding: 0 2rem 4rem 2rem;
   position: relative;
   overflow: hidden;
 }
@@ -526,6 +526,7 @@ main {
 
 .project-links {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 

@@ -1,5 +1,4 @@
 import SpotlightCard from '@/components/SpotlightCard';
-import Magnet from '@/components/Magnet';
 export default function Research() {
   return (
     <main>
@@ -20,20 +19,12 @@ export default function Research() {
               </h2>
               <div className="paper-venue">Scientometrics (Springer) • September 2025</div>
               <p className="paper-description">
-                Introduces an information-density framework that balances
-                relevance, argumentative strength, and cognitive load to
-                optimise peer-review length.
+                Developed a heuristic framework based on Cognitive Load and Discourse Analysis to optimize peer review lengths using information density, content relevance, argument strength, and readability metrics.
               </p>
               <div className="project-links" style={{ marginTop: '1rem' }}>
-                <Magnet padding={50} magnetStrength={3}>
                   <a href="https://doi.org/10.1007/s11192-025-05416-w" target="_blank" rel="noopener noreferrer" className="project-link">Paper</a>
-                </Magnet>
-                <Magnet padding={50} magnetStrength={3}>
                   <a href="https://github.com/Tirath5504/OptiReview" target="_blank" rel="noopener noreferrer" className="project-link">Code</a>
-                </Magnet>
-                <Magnet padding={50} magnetStrength={3}>
                   <a href="https://huggingface.co/spaces/Tirath5504/Length_Optimization_Peer_Review" target="_blank" rel="noopener noreferrer" className="project-link">Demo</a>
-                </Magnet>
               </div>
             </SpotlightCard>
 
@@ -47,45 +38,31 @@ export default function Research() {
                 Automated Software Engineering (Special Issue) • April 2026
               </div>
               <p className="paper-description">
-                Proposes a novel automated software patching framework using
-                multimodal runtime telemetry (stack traces, screenshots) and
-                specialized agent orchestration for hypothesis-driven repair.
+                Built a 12-agent LangGraph pipeline for runtime-aware program repair, integrating a Next.js telemetry SDK, stack traces, user-event context, and DOM screenshots for root-cause diagnosis and automated patch synthesis. Evaluated on 69 real-world bugs, fixing 32/69 issues vs 9/69 for GPT-4o.
               </p>
               <div className="project-links" style={{ marginTop: '1rem' }}>
-                <Magnet padding={50} magnetStrength={3}>
                   <a href="https://antibug-survey.vercel.app/benchmark" target="_blank" rel="noopener noreferrer" className="project-link">Website</a>
-                </Magnet>
-                <Magnet padding={50} magnetStrength={3}>
                   <a href="https://github.com/anon-research-submission/AntiBug" target="_blank" rel="noopener noreferrer" className="project-link">Code</a>
-                </Magnet>
+                  <a href="https://shorturl.at/kX1oy" target="_blank" rel="noopener noreferrer" className="project-link">Paper</a>
               </div>
             </SpotlightCard>
 
             <SpotlightCard className="research-paper fade-in">
-              <div className="paper-status">Under Review</div>
+              <div className="paper-accepted">Accepted</div>
               <h2 className="paper-title">
-                FRAC-MAS: Fracture Radiograph Analysis using Conformal
-                Multi-Agent System
+                FRAC-MAS: A Safe and Explainable Multi-Agent System for Fracture Diagnosis
               </h2>
               <div className="paper-venue">
-                The 2nd Agentic AI for Medicine Workshop at MICCAI 2026 • March 2026
+                The 2nd Agentic AI for Medicine Workshop at MICCAI 2026
               </div>
               <p className="paper-description">
-                Introduces a conformal multi-agent fracture radiograph pipeline
-                integrating robust visual models with specialized LLMs, ensuring
-                statistically grounded diagnoses for clinical workflow
-                integration.
+                Engineered a multi-agent clinical decision support system that integrates a 4-model vision ensemble (MaxViT, RAD-DINO, YOLO, DenseNet) with specialized LLM agents and delivers verifiable, RAG-grounded reasoning. Implemented conformal prediction for statistically grounded differential diagnoses, achieving 92.0% empirical coverage.
               </p>
               <div className="project-links" style={{ marginTop: '1rem' }}>
-                <Magnet padding={50} magnetStrength={3}>
                   <a href="https://frac-mas.vercel.app" target="_blank" rel="noopener noreferrer" className="project-link">Website</a>
-                </Magnet>
-                <Magnet padding={50} magnetStrength={3}>
                   <a href="https://github.com/anonymous-submission-research/FRAC-MAS" target="_blank" rel="noopener noreferrer" className="project-link">Code</a>
-                </Magnet>
-                <Magnet padding={50} magnetStrength={3}>
+                  <a href="https://shorturl.at/PwEVA" target="_blank" rel="noopener noreferrer" className="project-link">Paper</a>
                   <a href="https://frac-mas.vercel.app/diagnose" target="_blank" rel="noopener noreferrer" className="project-link">Demo</a>
-                </Magnet>
               </div>
             </SpotlightCard>
 
@@ -103,12 +80,9 @@ export default function Research() {
                 detect online hate speech.
               </p>
               <div className="project-links" style={{ marginTop: '1rem' }}>
-                <Magnet padding={50} magnetStrength={3}>
                   <a href="https://github.com/IPD-Hate-Speech-Detection/IPD-Hate-Speech-Detection" target="_blank" rel="noopener noreferrer" className="project-link">Code</a>
-                </Magnet>
-                <Magnet padding={50} magnetStrength={3}>
                   <a href="https://huggingface.co/spaces/dj-dawgs-ipd/IPD-Video-Pipeline" target="_blank" rel="noopener noreferrer" className="project-link">Demo</a>
-                </Magnet>
+                  <a href="https://shorturl.at/7sDSS" target="_blank" rel="noopener noreferrer" className="project-link">Paper</a>
               </div>
             </SpotlightCard>
 
@@ -127,9 +101,7 @@ export default function Research() {
                 requirement engineering.
               </p>
               <div className="project-links" style={{ marginTop: '1rem' }}>
-                <Magnet padding={50} magnetStrength={3}>
                   <a href="https://www.linkedin.com/posts/nvelop-it-whitepaper-on-requirements-generation-ugcPost-7310254420926099456-WwYT" target="_blank" rel="noopener noreferrer" className="project-link">Post</a>
-                </Magnet>
               </div>
             </SpotlightCard>
           </div>
